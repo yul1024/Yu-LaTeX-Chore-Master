@@ -1,2 +1,2 @@
-# Yu-LaTeX-Chore-Master
+# LaTeX Chore Master
 
