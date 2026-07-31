@@ -18,7 +18,7 @@ dependencies = [
     "pylatex",
     "pandas",
     ## Integrations
-    "bibtexparser>=2.0.0b9",  # I need v2. Default method intalls v1.4.4 .
+    "bibtexparser>=2.0.0b9",  # I need v2. Default method installs v1.4.4 .
 ]
 
 
