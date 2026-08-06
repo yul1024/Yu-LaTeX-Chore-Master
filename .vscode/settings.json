@@ -1,8 +1,20 @@
-// Yu's project using pytest. 
+// Yu's common VSCode python project settings. 
 {
-    "python.testing.pytestArgs": [
-        "tests"
-    ],
+    // Adds current workspace root to `PYTHONPATH` for integrated terminal. 
+    "terminal.integrated.env.osx": {
+        "PYTHONPATH": "${workspaceFolder}",
+    },
+    "terminal.integrated.env.linux": {
+        "PYTHONPATH": "${workspaceFolder}",
+    },
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceFolder}",
+    },
+    // Enables `pytest` for testing. 
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "tests",  // Default test directory. 
+    ],
 }
+
