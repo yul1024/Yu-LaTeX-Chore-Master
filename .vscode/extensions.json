@@ -19,6 +19,6 @@
         // Prevent auto-installation or suggestions bundled with ms-python.python
         "ms-python.vscode-pylance",  // closed-source LSP
         "ms-python.vscode-python-envs",  // redundant for modern Python toolchains unless reproducing legacy setups
-    ]
+    ],
 }
 
